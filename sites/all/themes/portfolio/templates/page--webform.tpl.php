@@ -12,7 +12,7 @@
       <?php endif; ?>
         <nav class="top-bar"<?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="name"><h1><a href="http://kim.com"><img src="/sites/default/files/kimkom.png"></a></h1></li>
+            <li class="name"><h1><a href="/"><img src="/sites/default/files/kimkom.png"></a></h1></li>
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
