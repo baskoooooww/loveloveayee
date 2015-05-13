@@ -225,9 +225,71 @@ h1, h2, h3, h4, h5, h6 {
 .page-portfolio{
 	.l-main{
 		.main {
+			.view-portfolio{
+					
+					  width: 90%;
+  					  margin: 0px auto;
+
+					.view-content{
+						.views-view-grid{
+							td{
+								background: #fff;
+
+								.views-field-field-photos{
+								 	padding-top: 60px;	
+								 	margin-bottom: 20px;
+								}
+
+								.views-field-title{
+									margin-bottom: 5px;
+
+									.field-content{
+										font-size: 25px;
+										text-transform: uppercase;
+										font-family: "Georgia";
+
+									}
+								}
+
+								.views-field-field-type{
+									.field-content{
+										font-size: 20px;
+									}
+								}
+							}
+						}
+						.views-row{
+							.views-field-field-body{
+								  padding: 20px;
+									.field-content{
+										margin-bottom: 60px;
+										img{
+											width: 100%;
+										}
+										.portfolio_title{
+											font-size: 20px;
+	  										margin-bottom: 1%;
+	  										text-transform: uppercase;
+	  										margin-top: 5%;
+	  										font-weight: bold;
+  											font-family: "Century Gothic";
+  										}
+									}
+								}
+						}
+
+					}
+
+				}
 			.title{
 				background: #FC9C47;
-				text-transform: uppercase;			
+				text-transform: uppercase;	
+				text-align: center;
+				font-size: 37px;
+				color: #FFFFFF;
+				font-family: "Quicksand";
+				height: 49px;
+  				font-weight: bold;		
 			}			
 		}
 	}
@@ -235,9 +297,62 @@ h1, h2, h3, h4, h5, h6 {
 .page-news{
 	.l-main{
 		.main {
+			.view-news{
+				.view-content{
+					.views-field-field-news-photo{
+						.field-content{
+							img{
+								padding-left: 100px;
+								padding-right: 100px;
+								padding-top: 50px;
+							}
+						}
+					}
+
+					.views-field-title{
+						margin-left: 100px;
+						.field-content{
+							a{
+								font-size: 22px;
+								text-transform: uppercase;
+							}
+						}
+
+					}
+
+					.views-field-field-news-date{
+						.field-content{
+							font-size: 17px;
+							margin-top: -13px;
+  							margin-left: 100px;
+						}
+					}
+
+					.views-field-body{
+						  margin-left: 100px;
+						  margin-top: 20px;
+						  padding-right: 100px;
+						  .field-content{
+						  		line-height: 2px;
+
+						  		p{
+						  			font-size: 18px;
+						  		}
+						  }
+					}
+					li{
+						margin-bottom: 60px;
+					}
+				}
+			}
 			.title{
 				background: #604D7F;
-				padding-top: 5px;
+				text-align: center;
+				font-size: 37px;
+				color: #FFFFFF;
+				font-family: "Quicksand";
+				height: 49px;
+  				font-weight: bold;
 			}
 		}
 	}
@@ -246,17 +361,41 @@ h1, h2, h3, h4, h5, h6 {
 .page-contact{
 	.l-main{
 		.main {
+			.view-contact{
+				.view-content{
+					.views-field-webform-form-body{
+						 padding-right: 75px;
+  						 padding-top: 25px;
+  						 z-index: 9;
+
+  						 .field-content{
+	  						 	.webform-submit{
+	  						 		border-radius: 1000px;
+	  						 		background: none;
+									color: #000000;
+									border: 2px solid;
+  						 	}
+  						 }
+					}
+				}
+			}
 			.title{
 				background: #FF1A4E;
+				text-align: center;
+				font-size: 37px;
+				color: #FFFFFF;
+				font-family: "Quicksand";
+				height: 49px;
+  				font-weight: bold;
 			}
 		}
 	}
 }
 
-.l-main{
-	.contextual-links-region{
-		.view-services{
-	  /*    padding-top: 13%;*/
+.page-services{
+	.l-main{
+		.main{
+			.view-services{
 		  padding-left: 10%;
           padding-right: 10%;
 			.view-content{
@@ -312,6 +451,12 @@ h1, h2, h3, h4, h5, h6 {
 
 				}
 			}
+		}
+	}
+}
+
+.l-main{
+	.contextual-links-region{
 				.block-views-description-block{
 					.view-description{
 						.view-content{
@@ -340,133 +485,6 @@ h1, h2, h3, h4, h5, h6 {
 					/*padding-top: 5px;*/
   					font-weight: bold;
 				}
-
-				.view-portfolio{
-					/*margin-top: -120px;*/
-					  width: 90%;
-  					  margin: 0px auto;/*
-  					  padding-top: 13%;*/
-
-					.view-content{
-						.views-view-grid{
-							td{
-								background: #fff;
-
-								.views-field-field-photos{
-								 	padding-top: 60px;	
-								 	margin-bottom: 20px;
-								}
-
-								.views-field-title{
-									margin-bottom: 5px;
-
-									.field-content{
-										font-size: 25px;
-										text-transform: uppercase;
-										font-family: "Georgia";
-
-									}
-								}
-
-								.views-field-field-type{
-									.field-content{
-										font-size: 20px;
-									}
-								}
-							}
-						}
-						.views-row{
-							.views-field-field-body{
-								  padding: 20px;
-									.field-content{
-										margin-bottom: 60px;
-										img{
-											width: 100%;
-										}
-										.portfolio_title{
-											font-size: 20px;
-	  										margin-bottom: 1%;
-	  										text-transform: uppercase;
-	  										margin-top: 5%;
-	  										font-weight: bold;
-  											font-family: "Century Gothic";
-  										}
-									}
-								}
-						}
-
-					}
-
-				}
-
-			.view-news{
-				.view-content{
-					.views-field-field-news-photo{
-						.field-content{
-							img{
-								padding-left: 100px;
-								padding-right: 100px;
-								padding-top: 50px;
-							}
-						}
-					}
-
-					.views-field-title{
-						margin-left: 100px;
-						.field-content{
-							a{
-								font-size: 22px;
-								text-transform: uppercase;
-							}
-						}
-
-					}
-
-					.views-field-field-news-date{
-						.field-content{
-							font-size: 17px;
-							margin-top: -13px;
-  							margin-left: 100px;
-						}
-					}
-
-					.views-field-body{
-						  margin-left: 100px;
-						  margin-top: 20px;
-						  padding-right: 100px;
-						  .field-content{
-						  		line-height: 2px;
-
-						  		p{
-						  			font-size: 18px;
-						  		}
-						  }
-					}
-
-					li{
-						margin-bottom: 60px;
-					}
-				}
-			}
-
-			.view-contact{
-				.view-content{
-					.views-field-webform-form-body{
-						 padding-right: 75px;
-  						 padding-top: 25px;
-  						 z-index: 9;
-
-  						 .field-content{
-	  						 	.webform-submit{
-	  						 		border-radius: 1000px;
-	  						 		background: none;
-									color: #000000;
-									border: 2px solid;
-  						 	}
-  						 }
-					}
-				}
-			}
 
 			.views-field-webform-form-body{
 				z-index: 9;
@@ -499,6 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 				}
 			}
 	}
+}
 
 	.main{
 		
@@ -602,7 +621,6 @@ h1, h2, h3, h4, h5, h6 {
 			}
 		}
 	}
-}
 
 .footer{
 	  background: #373B47;
